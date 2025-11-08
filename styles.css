@@ -1,0 +1,165 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container for both left and right sections */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Left section (mobile image) */
+.left {
+    margin-right: 30px;
+}
+
+.mobile-image {
+    height: 550px;
+}
+
+/* Right section */
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Login box */
+.login-box {
+    width: 350px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Instagram text logo */
+.instatextlogo {
+    width: 180px;
+    margin-bottom: 30px;
+}
+
+/* Input boxes */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+/* Login button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0078cc;
+}
+
+/* Separator (OR section) */
+.separator {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+    border: none;
+}
+
+.separator p {
+    margin: 0 10px;
+}
+
+/* Facebook login */
+.loginwithfacebook {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fbimage {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.fblogin {
+    color: #385185;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.fblogin:hover {
+    text-decoration: underline;
+}
+
+/* Forgot password */
+.forgotpassword {
+    color: #00376b;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.forgotpassword:hover {
+    text-decoration: underline;
+}
+
+/* Signup box */
+.signupbox {
+    width: 350px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.signupbox a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Get the app section */
+.gettheapp {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.appstoreimages img {
+    width: 120px;
+    margin: 10px 5px;
+}
